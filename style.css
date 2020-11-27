@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.site {
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 35px;
+    display: grid;
+    grid-template-columns: 265px 1fr;
+    grid-template-rows: 70px 1fr;
+    grid-gap: 15px;
+}
+
+header {
+    background-color: #13CE66;
+    padding: 10px;
+    grid-column: 1/-1;
+}
+header img {
+    width: 70px;
+}
+
+.nav {
+    background-color: #13CE66;
+    height: 850px;
+    padding: 10px;
+    grid-column: 1/1;
+    grid-row: 2/2;
+}
+.nav a{
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    font: 35px sans-serif;
+    font-weight: lighter;
+}
+
+.content {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    height: 1000px;
+    padding: 10px;
+    grid-column: 2/2;
+    grid-row: 2/2;
+}
+.content .cap img {
+    width: 100%;
+}
+.content .user {
+    display: grid;
+    grid-template-columns: 170px 1fr;
+    margin-top: 15px;
+}
+.content .user .ava img{
+    width: 170px;
+}
+.content .user .desc {
+    margin-left: 50px;
+    text-decoration: none;
+    color: #606A74;
+    font: 30px sans-serif;
+    font-weight: lighter;
+}
+.content .post .my-post {
+    margin-left: 10px;
+    color: #606A74;
+    font: 35px sans-serif;
+    font-weight: lighter;
+}
+.content .post .your-news input {
+    margin-left: 10px;
+    margin-top: 20px;
+    padding: 0px;
+    width: 1000px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    height: 70px;
+    background-color: #E6EEEA;
+    border: 0;
+    font: 25px sans-serif;
+    font-weight: lighter;
+}
+.content .post .send button {
+    float: right;
+    margin-right: 55px;
+    margin-top: 10px;
+    border: 0;
+    background-color: #13CE66;
+    width: 170px;
+    height: 35px;
+    color: #fff;
+    padding-right: 80px;
+    font: 25px sans-serif;
+    font-weight: lighter;
+}
+.comment {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+}
+.comment .ava {
+    width: 60px;
+    height: 60px;
+    background-color: #FFC82C;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+.comment .text {
+    padding-right: 80px;
+    font: 26px sans-serif;
+    font-weight: lighter;
+    color: #5F6973;
+}
